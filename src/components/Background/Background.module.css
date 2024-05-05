@@ -1,0 +1,44 @@
+.bgCircle768,
+.bgCircle1024,
+.bgCircle1440 {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .bgCircle {
+    display: none;
+  }
+
+  .bgCircle768 {
+    display: block;
+    width: 100vw;
+    height: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .bgCircle,
+  .bgCircle768 {
+    display: none;
+  }
+
+  .bgCircle1024 {
+    display: block;
+    width: 100vw;
+    height: auto;
+  }
+}
+
+@media (min-width: 1440px) {
+  .bgCircle,
+  .bgCircle768,
+  .bgCircle1024 {
+    display: none;
+  }
+
+  .bgCircle1440 {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+  }
+}

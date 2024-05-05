@@ -1,0 +1,48 @@
+.flashIcon {
+  position: fixed;
+  margin-left: 260px;
+  margin-top: 20px;
+  width: 45px;
+  cursor: pointer;
+}
+
+@media (min-width: 375px) {
+  .flashIcon {
+    margin-left: 310px;
+  }
+}
+
+@media (min-width: 400px) {
+  .flashIcon {
+    margin-left: 330px;
+  }
+}
+
+@media (min-width: 425px) {
+  .flashIcon {
+    margin-left: 350px;
+  }
+}
+
+@media (min-width: 768px) {
+  .flashIcon {
+    margin-left: 85vw;
+    margin-top: 28px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .flashIcon {
+    margin-left: 85vw;
+    margin-top: 30px;
+    width: 60px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .flashIcon {
+    margin-left: 85vw;
+    margin-top: 51px;
+    width: 85px;
+  }
+}

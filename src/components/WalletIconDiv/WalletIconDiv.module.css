@@ -1,0 +1,139 @@
+.walletIcon,
+.connectWallet,
+.spdBalanceDisplay,
+.flashIcon {
+  position: fixed;
+}
+
+.walletIcon {
+  margin-top: -72px;
+  margin-left: -10px;
+}
+
+.walletIcon,
+.connectWallet {
+  cursor: pointer;
+}
+
+.connectWallet,
+.spdBalanceDisplay {
+  margin-left: 60px;
+}
+
+.connectWallet {
+  margin-top: 25px;
+  font-size: 10px;
+}
+
+.spdBalanceDisplay {
+  margin-top: 38px;
+  font-size: 12px;
+}
+
+@media (min-width: 375px) {
+  .connectWallet {
+    margin-top: 26px;
+    font-size: 11px;
+  }
+
+  .spdBalanceDisplay {
+    margin-top: 38px;
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 400px) {
+  .walletIcon {
+    margin-left: -5px;
+  }
+
+  .connectWallet {
+    margin-top: 22px;
+    margin-left: 68px;
+    font-size: 14px;
+  }
+
+  .spdBalanceDisplay {
+    margin-top: 42px;
+    margin-left: 67px;
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 425px) {
+  .walletIcon {
+    margin-left: -5px;
+  }
+
+  .connectWallet {
+    margin-top: 23px;
+    margin-left: 68px;
+    font-size: 15px;
+  }
+
+  .spdBalanceDisplay {
+    margin-top: 41px;
+    margin-left: 68px;
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  .walletIcon {
+    margin-top: -75px;
+    margin-left: 40px;
+    width: 100px;
+  }
+
+  .connectWallet {
+    margin-top: 30px;
+    margin-left: 115px;
+    font-size: 15px;
+  }
+
+  .spdBalanceDisplay {
+    margin-top: 49px;
+    margin-left: 115px;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .walletIcon {
+    margin-top: -75px;
+    margin-left: 45px;
+    width: 110px;
+  }
+
+  .connectWallet {
+    margin-top: 42px;
+    margin-left: 128px;
+    font-size: 16px;
+  }
+
+  .spdBalanceDisplay {
+    margin-top: 59px;
+    margin-left: 127px;
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .walletIcon {
+    margin-top: -100px;
+    margin-left: 80px;
+    width: 150px;
+  }
+
+  .connectWallet {
+    margin-top: 60px;
+    margin-left: 195px;
+    font-size: 20px;
+  }
+
+  .spdBalanceDisplay {
+    margin-top: 82px;
+    margin-left: 195px;
+    font-size: 25px;
+  }
+}
