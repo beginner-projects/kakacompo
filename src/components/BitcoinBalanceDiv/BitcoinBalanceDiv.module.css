@@ -99,13 +99,13 @@
 
 @media (min-width: 400px) and (min-height: 600px) {
   .subTagBitcoinPool {
-    margin-top: 55vh; /* changed */
+    margin-top: 58vh; /* changed */
     margin-left: 31vw;
     font-size: 20px;
   }
 
   .poolBalance {
-    margin-top: 58vh; /* changed */
+    margin-top: 60vh; /* changed */
     margin-left: 15vw;
     font-size: 39px;
   }
