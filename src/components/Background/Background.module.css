@@ -4,6 +4,30 @@
   display: none;
 }
 
+@media (min-width: 375px) {
+  .bgCircle768,
+  .bgCircle1024,
+  .bgCircle1440 {
+    display: none;
+  }
+}
+
+@media (min-width: 400px) {
+  .bgCircle768,
+  .bgCircle1024,
+  .bgCircle1440 {
+    display: none;
+  }
+} 
+
+@media (min-width: 425px) {
+  .bgCircle768,
+  .bgCircle1024,
+  .bgCircle1440 {
+    display: none;
+  }
+}
+
 @media (min-width: 768px) {
   .bgCircle {
     display: none;
