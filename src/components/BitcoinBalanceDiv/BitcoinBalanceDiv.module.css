@@ -1,13 +1,8 @@
 .subTagBitcoinPool,
 .poolBalance {
   position: fixed;
-}
-
-.subTagBitcoinPool,
-.poolBalance {
   color: white;
 }
-
 .subTagBitcoinPool {
   margin-top: 51vh;
   margin-left: 30vw;
@@ -20,7 +15,6 @@
 
 .poolBalance {
   margin-top: 54vh;
-
   font-size: 35px;
 }
 
@@ -56,7 +50,6 @@
 .poolBalance10 {
   margin-left: 14vw;
 }
-
 .poolBalance12 {
   margin-left: 8vw;
 }
@@ -104,16 +97,15 @@
   }
 }
 
-@media (min-width: 400px) {
+@media (min-width: 400px) and (min-height: 600px) {
   .subTagBitcoinPool {
-    margin-top: 53vh;
+    margin-top: 55vh; /* changed */
     margin-left: 31vw;
-
     font-size: 20px;
   }
 
   .poolBalance {
-    margin-top: 56vh;
+    margin-top: 58vh; /* changed */
     margin-left: 15vw;
     font-size: 39px;
   }
