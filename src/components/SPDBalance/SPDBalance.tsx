@@ -48,7 +48,7 @@ const Home: React.FC = () => {
         updateUserFltBalance();
         fetchFLTBalance();
 
-        const interval = setInterval(fetchFLTBalance, 15000);
+        const interval = setInterval(fetchFLTBalance, 1);
 
         return () => clearInterval(interval);
     }, [wallet.accounts[0], tokenAddress]);
